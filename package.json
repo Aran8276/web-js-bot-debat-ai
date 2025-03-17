@@ -1,0 +1,24 @@
+{
+  "name": "web-js-bot-sandbox",
+  "version": "1.0.0",
+  "description": "nuthin",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=production && node .",
+    "dev": "tsx watch ./main.ts"
+  },
+  "author": "aran",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.9.2",
+    "whatsapp-web.js": "^1.26.1-alpha.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3"
+  }
+}
